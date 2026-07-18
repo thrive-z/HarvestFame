@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "水煮蛋", 
+    "describe": "水煮蛋的配方",
+    "duration": 5,
+    "require_fuel": true,
+    "inputs": [
+      {
+        "item_id": 53,
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item_id": 54,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "炖鸡汤",
+    "describe": "炖鸡汤的配方",
+    "duration": 5,
+    "require_fuel": true,
+    "inputs": [
+      {
+        "item_id": 53,
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item_id": 53,
+        "count": 1
+      }
+    ]
+  }
+]
+

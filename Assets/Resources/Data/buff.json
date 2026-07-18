@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "item_id": 54,
+    "vital_type": "Satiety",
+    "value": 19,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 2,
+    "item_id": 54,
+    "vital_type": "Stamina",
+    "value": 15,
+    "buff_type": "Instant"
+  }
+  
+]

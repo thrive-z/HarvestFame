@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Quest_FeedChicken",
+    "type": "Side",
+    "title": "喂一只小鸡",
+    "description": "收集鸡饲料，并喂给任意一只小鸡",
+    "steps": [
+      { "id": 1, "type": "CollectItem", "itemId": "Feed", "amount": 1 },
+      { "id": 2, "type": "FeedAnimal", "animal": "Chicken", "amount": 1 }
+    ],
+    "rewards": {
+      "items": [
+        { "id": "Egg", 
+          "amount": 3 
+        }
+      ],
+      "exp": 50
+    }
+  }
+
+]

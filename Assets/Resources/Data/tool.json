@@ -1,0 +1,69 @@
+[
+  {
+    "tool_id": 1,
+    "item_id": 4,
+    "tool_type": "Hoe",
+    "use_stamina": true,
+    "stamina_cost": 5,
+    "use_durability": true,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  },
+  {
+    "tool_id": 2,
+    "item_id": 5,
+    "tool_type": "Pickaxe",
+    "use_stamina": true,
+    "stamina_cost": 5,
+    "use_durability": true,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  },
+  {
+    "tool_id": 3,
+    "item_id": 6,
+    "tool_type": "Axe",
+    "use_stamina": true,
+    "stamina_cost": 5,
+    "use_durability": true,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  },
+  {
+    "tool_id": 4,
+    "item_id": 7,
+    "tool_type": "Sickle",
+    "use_stamina": true,
+    "stamina_cost": 5,
+    "use_durability": true,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  },
+  {
+    "tool_id": 5,
+    "item_id": 8,
+    "tool_type": "WaterCan",
+    "use_stamina": false,
+    "stamina_cost": 5,
+    "use_durability": false,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  },
+  {
+    "tool_id": 6,
+    "item_id": 9,
+    "tool_type": "FishingRod",
+    "use_stamina": false,
+    "stamina_cost": 5,
+    "use_durability": false,
+    "max_durability": 100,
+    "durability_cost": 1,
+    "interact_distance": 8
+  }
+
+]
