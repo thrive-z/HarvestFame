@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "item_id": 54,
+    "vital_type": "Satiety",
+    "value": 19,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 2,
+    "item_id": 54,
+    "vital_type": "Stamina",
+    "value": 15,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 3,
+    "item_id": 32,
+    "vital_type": "Satiety",
+    "value": 8,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 4,
+    "item_id": 33,
+    "vital_type": "Satiety",
+    "value": 10,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 5,
+    "item_id": 55,
+    "vital_type": "Satiety",
+    "value": 35,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 6,
+    "item_id": 55,
+    "vital_type": "Stamina",
+    "value": 25,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 7,
+    "item_id": 1,
+    "vital_type": "Satiety",
+    "value": 5,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 8,
+    "item_id": 57,
+    "vital_type": "Satiety",
+    "value": 30,
+    "buff_type": "Instant"
+  },
+  {
+    "id": 9,
+    "item_id": 57,
+    "vital_type": "Stamina",
+    "value": 20,
+    "buff_type": "Instant"
+  }
+]

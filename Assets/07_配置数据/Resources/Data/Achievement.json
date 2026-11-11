@@ -1,0 +1,16 @@
+[
+  {
+    "id": "Ach_FirstEgg",
+    "title": "第一颗蛋",
+    "description": "收集一颗鸡蛋",
+    "condition": {
+      "type": "CollectItem",
+      "itemId": "Egg",
+      "amount": 1
+    },
+    "rewardExp": 10
+  }
+
+  
+  
+]

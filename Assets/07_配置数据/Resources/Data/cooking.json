@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "水煮蛋",
+    "describe": "水煮蛋的配方",
+    "duration": 5,
+    "require_fuel": true,
+    "inputs": [
+      {
+        "item_id": 53,
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item_id": 54,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "番茄南瓜汤",
+    "describe": "使用农场收获的番茄和南瓜烹饪。",
+    "duration": 8,
+    "require_fuel": true,
+    "inputs": [
+      {
+        "item_id": 32,
+        "count": 1
+      },
+      {
+        "item_id": 33,
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item_id": 55,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "溪鱼汤",
+    "describe": "溪鱼炖成的汤。",
+    "duration": 6,
+    "require_fuel": true,
+    "inputs": [
+      {
+        "item_id": 56,
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item_id": 57,
+        "count": 1
+      }
+    ]
+  }
+]

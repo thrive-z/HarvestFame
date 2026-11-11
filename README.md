@@ -33,4 +33,4 @@
 
 ## Unity 工程
 
-使用 Unity Hub 添加仓库根目录，选择 Unity 2023.1.1f1 打开工程。用 Build Settings 中启用的 `SampleScene` 作为入口，进入 Play Mode 试玩。试玩版和资源包来自本地最新构建，仓库源码目前保留较早的版本。
+使用 Unity Hub 添加仓库根目录，选择 Unity 2023.1.1f1 打开工程。用 Build Settings 中启用的 `SampleScene` 作为入口，进入 Play Mode 试玩。仓库中的 Unity 工程与本次试玩版和资源包对应。

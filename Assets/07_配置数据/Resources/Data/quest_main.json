@@ -1,0 +1,117 @@
+{
+    "mainQuests": [
+        {
+            "id": "MAIN_01_WAKE_UP",
+            "title": "醒来",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "talk_eileen",
+                    "desc": "和艾琳交谈",
+                    "condition": { "type": "TalkToNPC", "npc": "Eileen" }
+                }
+            ],
+            "onSubmit": { "advanceStory": "CHAPTER_1" }
+        },
+
+        {
+            "id": "MAIN_02_FOOD",
+            "title": "填饱肚子",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "plant_carrot",
+                    "desc": "种植 5 个萝卜",
+                    "condition": { "type": "PlantCrop", "crop": "Carrot", "count": 5 }
+                },
+                {
+                    "id": "harvest_carrot",
+                    "desc": "收获 5 个萝卜",
+                    "condition": { "type": "HarvestCrop", "crop": "Carrot", "count": 5 }
+                }
+            ],
+            "onSubmit": { "advanceStory": "CHAPTER_2" }
+        },
+
+        {
+            "id": "MAIN_03_TOOL",
+            "title": "活下去的工具",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "gather_wood",
+                    "desc": "收集5个木材, 3个石块",
+                    "condition": { "type": "CollectItem", "item": "Wood", "count": 3 }
+                },
+                {
+                    "id": "craft_axe",
+                    "desc": "制作石斧",
+                    "condition": { "type": "CraftItem", "item": "StoneAxe", "count": 1 }
+                }
+            ]
+        },
+
+        {
+            "id": "MAIN_04_DANGER",
+            "title": "外面很危险",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "kill_monster",
+                    "desc": "击杀 3 个游荡怪物",
+                    "condition": { "type": "KillEnemy", "enemy": "Wanderer", "count": 3 }
+                }
+            ]
+        },
+
+        {
+            "id": "MAIN_05_TOWER",
+            "title": "修复哨塔",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "collect_wood_5",
+                    "desc": "收集 5 个木材",
+                    "condition": { "type": "CollectItem", "item": "Wood", "count": 5 }
+                },
+                {
+                    "id": "repair_tower",
+                    "desc": "修复哨塔",
+                    "condition": { "type": "Interact", "target": "WatchTower" }
+                }
+            ]
+        },
+
+        {
+            "id": "MAIN_06_BUNKER",
+            "title": "地下的秘密",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "enter_bunker",
+                    "desc": "进入地下避难所",
+                    "condition": { "type": "EnterArea", "area": "Bunker" }
+                },
+                {
+                    "id": "activate_device",
+                    "desc": "启动旧设备",
+                    "condition": { "type": "Interact", "target": "OldTerminal" }
+                }
+            ]
+        },
+
+        {
+            "id": "MAIN_07_END",
+            "title": "选择与未来",
+            "type": "Main",
+            "steps": [
+                {
+                    "id": "talk_vic",
+                    "desc": "和老维克交谈",
+                    "condition": { "type": "TalkToNPC", "npc": "Vic" }
+                }
+            ],
+            "onSubmit": { "unlockFreePlay": true }
+        }
+    ]
+}

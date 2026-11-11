@@ -1,0 +1,42 @@
+{
+    "sideQuests": [
+        {
+            "id": "SIDE_01_MIRA",
+            "title": "米拉的实验",
+            "type": "Side",
+            "steps": [
+                {
+                    "id": "craft_tool",
+                    "desc": "制作任意工具",
+                    "condition": { "type": "CraftAny", "count": 1 }
+                }
+            ]
+        },
+
+        {
+            "id": "SIDE_02_EILEEN",
+            "title": "艾琳的请求",
+            "type": "Side",
+            "steps": [
+                {
+                    "id": "extra_plant",
+                    "desc": "额外种植 3 个作物",
+                    "condition": { "type": "PlantAny", "count": 3 }
+                }
+            ]
+        },
+
+        {
+            "id": "SIDE_03_RODE",
+            "title": "罗德的担忧",
+            "type": "Side",
+            "steps": [
+                {
+                    "id": "kill_far",
+                    "desc": "清理远处怪物",
+                    "condition": { "type": "KillEnemy", "enemy": "Wanderer", "count": 5 }
+                }
+            ]
+        }
+    ]
+}

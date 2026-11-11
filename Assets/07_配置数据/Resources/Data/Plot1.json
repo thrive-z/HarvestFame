@@ -1,0 +1,55 @@
+[
+  {
+    "plot_id": 1, 
+    "name": "Dialogue_ChickenFarmer_Intro",
+    "description": "描述, 这是一个备注",
+    "nodes": [
+      {
+        "id": 1,
+        "npc_id": 1,
+        "text": "你好，欢迎来到鸡场！你需要帮助吗？",
+        "options": [
+          {
+            "text": "我想养鸡！",
+            "next": 2
+          },
+          {
+            "text": "不用了，我只是路过。",
+            "next": -1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "npc_id": 1,
+        "text": "太好了！帮我喂一只小鸡吧。",
+        "options": [
+          {
+            "text": "有任务吗？",
+            "next": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "是的！请帮我喂一只小鸡。",
+        "options": [
+          {
+            "text": "接受任务",
+            "next": -1,
+            "giveQuest": "Quest_FeedChicken"
+          },
+          {
+            "text": "我再考虑下",
+            "next": -1
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "plot_id": 2
+  }
+  
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "spear_01",
+    "name": "木矛",
+    "type": "melee",
+    "weapon_type": "WoodenSpear",
+    "ballistic_type": "Melee",
+    "damage": 12,
+    "critRate": 0.05,
+    "critMultiplier": 1.5,
+    "attackCooldown": 0.8,
+    "attackRange": 2.2,
+    "arrow_speed": 10
+  },
+  {
+    "id": "gun_01",
+    "name": "农用手枪",
+    "type": "ranged",
+    "weapon_type": "Pistol",
+    "bullet_type": "Bullet_9mm",
+    "magazine_size": 10,
+    "fireMode": "semi",
+    "canSwitchFireMode": false,
+    "ballistic_type": "Ranged",
+    "damage": 10,
+    "critRate": 0.2,
+    "critMultiplier": 2.0,
+    "arrow_speed": 20,
+    "attackCooldown": 0.3,
+    "magazineSize": 8,
+    "reloadTime": 1.5,
+
+    "adsZoom": 1.3,
+    "adsMoveSpeed": 0.6
+  },
+  {
+    "id": "gun_02",
+    "name": "冲锋枪",
+    "type": "ranged",
+    "weapon_type": "SubmachineGun",
+    "magazine_size": 30,
+    "fireMode": "auto",
+    "canSwitchFireMode": true,
+    "ballistic_type": "Ranged",
+    "damage": 7,
+    "critRate": 0.1,
+    "critMultiplier": 1.5,
+
+    "attackCooldown": 0.1,
+    "magazineSize": 30,
+    "reloadTime": 2.0,
+    "arrow_speed": 10,
+    "adsZoom": 1.4,
+    "adsMoveSpeed": 0.7
+  },
+  {
+    "id": "bow_01",
+    "name": "初级弓",
+    "type": "ranged",
+    "weapon_type": "WoodenBow",
+    "magazine_size": 1,
+    "fireMode": "semi",
+    "canSwitchFireMode": false,
+    "ballistic_type": "Ranged",
+    "damage": 15,
+    "critRate": 0.1,
+    "critMultiplier": 2.0,
+    "reloadTime": 2.0,
+    "arrow_speed": 10,
+    "attackCooldown": 1.0,
+
+    "arrowSpeed": 25,
+    "adsZoom": 1.5,
+    "adsMoveSpeed": 0.5
+  }
+]
