@@ -17,4 +17,15 @@ a { color: #f5d58e; }
 </video>
 <p><a href="https://github.com/thrive-z/HarvestFame/releases/download/showcase-2026-11-11/HarvestFame-Gameplay.mp4">下载原版 MP4</a> · <a href="https://github.com/thrive-z/HarvestFame#readme">返回项目介绍</a></p>
 </main>
+<script>
+const player = document.querySelector('video');
+const start = Number(new URLSearchParams(location.search).get('t'));
+if (Number.isFinite(start) && start > 0) {
+  const seekToChapter = () => {
+    if (start < player.duration) player.currentTime = start;
+  };
+  if (player.readyState >= 1) seekToChapter();
+  else player.addEventListener('loadedmetadata', seekToChapter, { once: true });
+}
+</script>
 </html>
