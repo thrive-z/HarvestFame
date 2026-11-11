@@ -1,5 +1,7 @@
 # 丰收农场 · HarvestFame
 
+**[▶ 在线观看演示](https://thrive-z.github.io/HarvestFame/)　·　[⬇ 下载 Windows 试玩版](https://github.com/thrive-z/HarvestFame/releases/download/showcase-2026-11-11/HarvestFame-Windows.zip)**
+
 一款用 Unity 2023.1.1f1 和 C# 开发的第三人称农场经营游戏。玩家从锄头和花洒起步，在农场商店购买种子，开垦、播种、浇水和收获，再把作物用来烹饪或出售。跟随主线任务可以驾驶拖拉机前往驿站，也可以自由经营农场、饲养小鸡和采集资源。
 
 ## 游戏演示
