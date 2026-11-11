@@ -4,7 +4,7 @@
 
 ## 游戏演示
 
-[下载丰收农场演示视频（MP4）](https://github.com/thrive-z/HarvestFame/releases/download/showcase-2026-11-11/HarvestFame-Gameplay.mp4)
+[在线观看丰收农场游戏演示](https://thrive-z.github.io/HarvestFame/)（约 8 分钟） · [下载原版 MP4](https://github.com/thrive-z/HarvestFame/releases/download/showcase-2026-11-11/HarvestFame-Gameplay.mp4)
 
 ## 下载与运行
 
